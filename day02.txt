@@ -101,6 +101,16 @@ fatal: unable to access 'https://github.com/korea-itsun/testProject.git/': The r
 [해결방안] 자격 증명 관리자에 있는 git-hub 관련 내용 삭제하기
 
 
+git clone 원격저장소주소 저장할 경로
+	원격 저장소에 있는 파일들을 복사하여 로컬 저장소로 가져오는 명령어
+	다른 사람이 서버에 올려놓은 git저장소를 내 컴퓨터에 똑같이 복사해오는 용도로 사용한다.
+	보통 처음 세팅을 할 때 사용한다.
+	
+	* 주의사항: 클론을 할 때는 git init을 하지 않는다.
+		git init은 내 로컬에서 .git 폴더를 만들고 처음부터 관리하는 것이고
+		clone은 다른 사람들이 작성한 파일들을 한 번에 다운 받는 것
+
+
 
 
 
