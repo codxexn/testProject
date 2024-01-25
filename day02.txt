@@ -84,6 +84,10 @@ git checkout 체크섬 or 브랜치 이름 or -
 	git은 기본적으로 master 브랜치를 메인으로 사용한다.
 
 
+원격 저장소에 저장한 파일들을 로컬 저장소로 가져올 때 발생하는 에러
+[에러 내용] fatal: fefusing to merge unrelated histories
+[발생 이유] 로컬 저장소와 원격 저장소 간에 서로 다른 히스토리를 갖고 있을 때 발생한다.
+	1) 빈 저장소에 
 
 
 
